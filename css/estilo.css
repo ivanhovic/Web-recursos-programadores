@@ -1,0 +1,108 @@
+body{
+	font-family:'Open Sans',sans-serif;
+	color:#373737
+}
+
+a{
+	color: #1c94c6;
+	text-decoration: none;
+}
+
+a.hover{
+	color: #FF461A;
+}
+
+h1{
+	color: #1c94c6;
+}
+
+h2{
+	color: #095D81;
+}
+
+nav{
+	background-color: #1c94c6;
+	border-radius: 4px;
+}
+
+nav ul{
+	list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+
+nav ul li{
+	border-radius:5px;
+	text-align:center;
+	display:inline;
+}
+nav ul li a{
+
+}
+
+nav ul li a:hover{
+	border-radius: 2px;
+}
+
+li {
+	font-size: 2.0em;
+	line-height: 2em;
+	margin-right: 0.4em;
+	list-style:none;
+}
+
+li a {
+	color: #fff;
+	background-color: #1c94c6;
+	padding: 0.2em 0.4em;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 25px;
+
+	text-decoration: none;
+
+	-webkit-transition: background-color 0.2s;
+}
+
+li a:hover {
+	background-color: #FFBE1A;
+	-webkit-transition: background-color 0.2s;
+}
+
+li a:active {
+	background-color: #C6006C;
+	-webkit-transition: background-color 0.1s;
+}
+
+.explicacion{
+	text-align: center;
+}
+
+.cursos{
+	text-align: center;
+}
+
+footer{
+	background-color: #1c94c6;
+	border-radius: 4px;
+}
+
+footer ul{
+	list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+
+footer ul li{
+	border-radius:5px;
+	text-align:center;
+	display:inline;
+}
+footer ul li a{
+
+}
+
+footer ul li a:hover{
+	border-radius: 2px;
+}
