@@ -42,7 +42,7 @@
         <li><a href="git.html">Git</a></li>
         <li><a href="sublime.html">Sublime Text</a></li>
         <li><a href="basesdatos.html">Bases de Datos</a></li>
-        <li><a href="diseño.html">Diseño</a></li>
+        <li><a href="desing.html">Diseño</a></li>
     </div>
 
     <div class="grid_6 omega">
