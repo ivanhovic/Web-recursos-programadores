@@ -27,7 +27,8 @@
 
     <div class="grid_6">  
       <h1>Lenguajes de Programación</h1>
-        <li><a href="c.html">C/C++</a></li>
+        <li><a href="c.html">C</a></li>
+        <li><a href="cplus.html">C++</a></li>
         <li><a href="java.html">Java</a></li>
         <li><a href="python.html">Python</a></li>
         <li><a href="javascript.html">JavaScript</a></li>
