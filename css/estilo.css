@@ -68,11 +68,13 @@ li a {
 
 li a:hover {
 	background-color: #FFBE1A;
+	text-decoration: none;
 	/*-webkit-transition: background-color 0.2s;*/
 }
 
 li a:active {
 	background-color: #C6006C;
+	text-decoration: none;
 	/*-webkit-transition: background-color 0.1s;*/
 }
 
@@ -107,3 +109,15 @@ footer ul li a{
 footer ul li a:hover{
 	border-radius: 2px;
 }
+
+@media (max-width: 500px){
+        
+      h1{
+        font-size: 36px;
+      }  
+        
+      ul{
+        display: block;
+        padding: 5px;
+      }
+    }
