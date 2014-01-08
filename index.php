@@ -18,7 +18,7 @@
     <!--<div class="grid_12">-->
       <nav>
         <ul>
-          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.php">Inicio</a></li>
           <li><a href="manifesto.html">Manifiesto</a></li>
           <li>|</li>
           <li><a href="aperitivo.html">Aperitivo</a></li>
@@ -29,7 +29,9 @@
 
       <div class="grid_10">
       <h2>Conviértete en un programador, Motherfucker</h2>
-      <p>If you don't know how to code, then you can learn even if you think you can't. Thousands of people have learned programming from these fine books:</p>
+      <p><b>¿No sabes programar?</b> A partir de ahora eso ya no será un problema. Aqui tienes a tu disposición los mejores recursos
+        online para aprender. Si no tienes ni idea y quieres sumerguirte poco a poco, tienes una guía <a href="aperitivo.html">básica</a>,
+         otra <a href="almuerzo.html">intermedia</a> y una última más <a href="postre.html">avanzada</a>.</p>
       </div>
 
     <div class="grid_4">  
@@ -68,7 +70,6 @@
         <li>Contacto: <a href="mailto:someone@example.com">murilloivan@gmail.com</a></li>
       </ul>
     </footer>
-  </div>
-</body>
 
+</body>
 </html>
