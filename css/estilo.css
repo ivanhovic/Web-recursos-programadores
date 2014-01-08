@@ -46,7 +46,7 @@ nav ul li a:hover{
 }
 
 li {
-	font-size: 2.0em;
+	font-size: 1.5em;
 	line-height: 2em;
 	margin-right: 0.4em;
 	list-style:none;
@@ -63,17 +63,17 @@ li a {
 
 	text-decoration: none;
 
-	-webkit-transition: background-color 0.2s;
+	/*-webkit-transition: background-color 0.2s;*/
 }
 
 li a:hover {
 	background-color: #FFBE1A;
-	-webkit-transition: background-color 0.2s;
+	/*-webkit-transition: background-color 0.2s;*/
 }
 
 li a:active {
 	background-color: #C6006C;
-	-webkit-transition: background-color 0.1s;
+	/*-webkit-transition: background-color 0.1s;*/
 }
 
 .explicacion{
