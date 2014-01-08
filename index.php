@@ -46,11 +46,12 @@
 
     <div class="grid_4 omega">
       <h2>Herramientas</h2>
-        <li><a href="terminal.html">Terminal</a></li>
-        <li><a href="git.html">Git</a></li>
-        <li><a href="sublime.html">Sublime Text</a></li>
-        <li><a href="basesdatos.html">Bases de Datos</a></li>
-        <li><a href="desing.html">Diseño</a></li>
+      <li><a href="basesdatos.html">Bases de Datos</a></li>
+      <li><a href="git.html">Git</a></li>
+      <li><a href="sublime.html">Sublime Text</a></li>
+      <li><a href="terminal.html">Terminal</a></li>
+      <li><a href="desing.html">Diseño</a></li>
+      <li><a href="copyright.html">Copyright</a></li>
     </div>
 
     <div class="grid_4 omega">
@@ -59,14 +60,15 @@
         <li><a href="ios.html">iOS</a></li>
         <li><a href="firefox.html">Firefox OS</a></li>
     </div>
-  </div>
 
-  <footer>
-    <ul>
-      <li>Iván Murillo</li>
-      <li>Contacto: <a href="mailto:someone@example.com">murilloivan@gmail.com</a></li>
-    </ul>
-  </footer>
+    <footer>
+      <ul>
+        <li>Iván Murillo</li>
+        <li>|</li>
+        <li>Contacto: <a href="mailto:someone@example.com">murilloivan@gmail.com</a></li>
+      </ul>
+    </footer>
+  </div>
 </body>
 
 </html>
