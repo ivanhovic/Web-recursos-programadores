@@ -27,10 +27,10 @@
         </ul>
       </nav>
 
-      <div class="grid_10">
-      <h2>Conviértete en programador</h2>
+      <div class="grid_12">
+      <h2>Conviértete en un programador</h2>
       <p><b>¿No sabes programar?</b> A partir de ahora eso ya no será un problema. Aqui tienes a tu disposición los mejores recursos
-        online para aprender, o para repasar. Si no tienes ni idea y quieres sumerguirte poco a poco, tienes una guía <a href="aperitivo.html">básica</a>,
+        online para aprender. Si no tienes ni idea y quieres sumerguirte poco a poco, tienes una guía <a href="aperitivo.html">básica</a>,
          otra <a href="almuerzo.html">intermedia</a> y una última más <a href="postre.html">avanzada</a>.</p>
       </div>
 
@@ -64,14 +64,6 @@
     </div>
   </div>
 
-    <!--<footer>
-      <ul>
-        <li>Iván Murillo</li>
-        <li>|</li>
-        <li><a href="mailto:someone@example.com">email</a></li>
-        <li><a href="www.twitter.com/ivanhovic">Twitter</a></li>
-      </ul>
-    </footer>-->
 
 </body>
 </html>
