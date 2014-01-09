@@ -18,7 +18,12 @@ h1{
 }
 
 h2{
-	color: #095D81;
+	color: #f14e32;
+}
+
+h2 img{
+	float: left;
+	margin: 0 5px 0 0;
 }
 
 nav{

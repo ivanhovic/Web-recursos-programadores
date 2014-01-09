@@ -35,7 +35,7 @@
       </div>
 
     <div class="grid_4">  
-      <h2>Lenguajes</h2>
+      <h2><img src="imagenes/len.png" height="45" width="45">Lenguajes</h2>
         <li><a href="c.html">C</a></li>
         <li><a href="cplus.html">C++</a></li>
         <li><a href="htmlcss.html">HTML / CSS</a></li>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="grid_4 omega">
-      <h2>Herramientas</h2>
+      <h2><img src="imagenes/tools.png" height="45" width="45">Herramientas</h2>
       <li><a href="basesdatos.html">Bases de Datos</a></li>
       <li><a href="git.html">Git</a></li>
       <li><a href="sublime.html">Sublime Text</a></li>
