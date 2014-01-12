@@ -91,7 +91,7 @@ li a:active {
 	text-align: center;
 }
 
-footer{
+/*footer{
 	background-color: #1c94c6;
 	border-radius: 4px;
 }
@@ -113,14 +113,10 @@ footer ul li a{
 
 footer ul li a:hover{
 	border-radius: 2px;
-}
+}*/
 
 @media (max-width: 500px){
-        
-      h1{
-        font-size: 36px;
-      }  
-        
+            
       ul{
         display: block;
         padding: 5px;

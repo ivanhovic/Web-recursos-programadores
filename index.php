@@ -2,11 +2,11 @@
   <html lang="es">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8">
   <title> Programa, mamón</title>
 
-  <link rel="stylesheet" type="text/css" href="css/estilo.css" />   
-  <link rel="stylesheet" type="text/css" href="css/grid.css" />
+  <link rel="stylesheet" href="css/estilo.css" >   
+  <link rel="stylesheet" href="css/grid.css" >
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
 
 </head>
