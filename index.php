@@ -4,11 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>{Programa}</title>
 
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="dist/css/custom.css" rel="stylesheet">
+    <link href="css/dist/css/custom.css" rel="stylesheet">
 
-    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
+    <link href="css/dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
     <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'> -->
 
   </head>
@@ -54,19 +54,19 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img class="img-circle" src="softies-icons/PNG/128px/book_128px.png" alt="Generic placeholder image">
+            <img class="img-circle" src="imagenes/book_128px.png" alt="Generic placeholder image">
             <h2>Lenguajes</h2>
             <p>Existen multitud de lenguajes de programación, unos más fáciles que otros, claro está. Aún así, ya no tienes excusa, ¡elige uno y empieza a aprender!</p>
             <p><a class="btn btn-default" href="lenguajes.html" role="button">Detalles &raquo;</a></p>
           </div>
           <div class="col-lg-4">
-            <img class="img-circle" src="softies-icons/PNG/128px/tools_128px.png" alt="Generic placeholder image">
+            <img class="img-circle" src="imagenes/tools_128px.png" alt="Generic placeholder image">
             <h2>Herramientas</h2>
             <p>Descubre, una a una, las herramientas imprescindibles en el mundo del desarrollo. Aquí, el tiempo es oro. ¡No lo desperdicies!</p>
             <p><a class="btn btn-default" href="herramientas.html" role="button">Detalles &raquo;</a></p>
           </div>
           <div class="col-lg-4">
-            <img class="img-circle" src="softies-icons/PNG/128px/phone_128px.png" alt="Generic placeholder image">
+            <img class="img-circle" src="imagenes/phone_128px.png" alt="Generic placeholder image">
             <h2>Móviles</h2>
             <p>¿Tienes pensada una app que revolucionará el mercado? Aqui tienes ayuda para empezar a desarrollar para iPhone, Android o Firefox.</p>
             <p><a class="btn btn-default" href="moviles.html" role="button">Detalles &raquo;</a></p>
