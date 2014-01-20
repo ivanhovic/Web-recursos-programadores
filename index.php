@@ -1,73 +1,92 @@
 <DOCTYPE html>
-  <html lang="es">
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{Programa}</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Conviértete en un programador!</title>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/dist/css/bootstrap.min.css" >   
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="dist/css/custom.css" rel="stylesheet">
 
-</head>
+    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'> -->
 
-<body>
+  </head>
 
-  <div class="container">
+  <body>
 
-    <header class="page-header">
-      <ul class="nav nav-pills pull-right">
-        <li class="active"><a href="index.php">Inicio</a></li>
-        <li><a href="manifesto.html">Manifiesto</a></li>
-        <li><a href="aperitivo.html">Aperitivo</a></li>
-        <li><a href="almuerzo.html">Almuerzo</a></li>
-        <li><a href="postre.html">Postre</a></li>
-      </ul>
-      <h3>Programa!</h3>
-    </header>
+    <!-- ========= NAVBAR ============ -->
 
-        <div class="jumbotron">
-      <h2>Conviértete en un programador, Motherfucker</h2>
-      <p class="lead"><b>¿No sabes programar?</b> A partir de ahora eso ya no será un problema. Aqui tienes a tu disposición los mejores recursos
-        online para aprender. Si no tienes ni idea y quieres sumerguirte poco a poco, tienes una guía <a href="aperitivo.html">básica</a>,
-         otra <a href="almuerzo.html">intermedia</a> y una última más <a href="postre.html">avanzada</a>.</p>
+    <div class="navbar navbar-default">
+      <div class="container">
+        <a class="navbar-brand text-muted" href="#">Programa!</a>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.php">Inicio</a></li>
+              <li><a href="info.html">Info</a></li>
+              <!-- proximamente
+              <li><a href="aperitivo.html">Aperitivo</a></li>
+              <li><a href="almuerzo.html">Almuerzo</a></li>
+              <li><a href="postre.html">Postre</a></li>
+            </ul> -->
+          </div>
+      </div>
     </div>
 
-    <div class="row">
 
-      <div class="col-sm-4">  
-        <h2><img src="imagenes/len.png" height="45" width="45">Lenguajes</h2>
-          <li><a href="c.html">C</a></li>
-          <li><a href="cplus.html">C++</a></li>
-          <li><a href="htmlcss.html">HTML / CSS</a></li>
-          <li><a href="java.html">Java</a></li>
-          <li><a href="javascript.html">JavaScript</a></li>
-          <li><a href="php.html">PHP</a></li>
-          <li><a href="python.html">Python</a></li>
-          <li><a href="ruby.html">Ruby</a></li>
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>¡Conviértete en programador!</h1>
+        <p class="lead">Si has llegado aquí, seguramente estés interesado en aprender a programadar o simplemente, en prefeccionar algo. Aqui tienes a tu disposición una <b>recopilación</b> de los mejores recursos online.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">¡Empieza!</a></p>
+          <!--<p>Si no tienes ni idea y quieres sumerguirte poco a poco, próximamente tendrás una guía <a href="aperitivo.html">básica</a>,
+           otra <a href="almuerzo.html">intermedia</a> y una última más <a href="postre.html">avanzada</a>.</p> -->
       </div>
 
-      <div class="col-sm-4">
-        <h2><img src="imagenes/tools.png" height="45" width="45">Herramientas</h2>
-        <li><a href="basesdatos.html">Bases de Datos</a></li>
-        <li><a href="git.html">Git</a></li>
-        <li><a href="sublime.html">Sublime Text</a></li>
-        <li><a href="terminal.html">Terminal</a></li>
-        <li><a href="desing.html">Diseño</a></li>
-        <li><a href="copyright.html">Copyright</a></li>
-        <li><a href="wordpress.html">Wordpress</a></li>
-      </div>
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="col-sm-4">
-        <h2>Desarrollo para móviles</h2>
-          <li><a href="android.html">Android</a></li>
-          <li><a href="ios.html">iOS</a></li>
-          <li><a href="firefox.html">Firefox OS</a></li>
-      </div>
-      
-    </div>
+      <div class="container marketing">
 
-  </div>
+        <!-- Tres columnas de info -->
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-circle" src="softies-icons/PNG/128px/book_128px.png" alt="Generic placeholder image">
+            <h2>Lenguajes</h2>
+            <p>Existen multitud de lenguajes de programación, unos más fáciles que otros, claro está. Aún así, ya no tienes excusa, ¡elige uno y empieza a aprender!</p>
+            <p><a class="btn btn-default" href="lenguajes.html" role="button">Detalles &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="img-circle" src="softies-icons/PNG/128px/tools_128px.png" alt="Generic placeholder image">
+            <h2>Herramientas</h2>
+            <p>Descubre, una a una, las herramientas imprescindibles en el mundo del desarrollo. Aquí, el tiempo es oro. ¡No lo desperdicies!</p>
+            <p><a class="btn btn-default" href="herramientas.html" role="button">Detalles &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="img-circle" src="softies-icons/PNG/128px/phone_128px.png" alt="Generic placeholder image">
+            <h2>Móviles</h2>
+            <p>¿Tienes pensada una app que revolucionará el mercado? Aqui tienes ayuda para empezar a desarrollar para iPhone, Android o Firefox.</p>
+            <p><a class="btn btn-default" href="moviles.html" role="button">Detalles &raquo;</a></p>
+          </div>
+        </div><!-- /.row -->
+
+        <!-- ========== FOOTER =========== -->
+
+        <div class="footer">
+            <p>&copy; 2014 &middot; <a href="#">Contacto</a></p>
+        </div>
+
+    </div> <!-- /container -->
+
+      <!-- ================================================== -->
+      <!--  JavaScript al final para que la web cargue antes   
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="../../docs-assets/js/holder.js"></script> -->
 
 
-</body>
+  </body>
 </html>
