@@ -55,4 +55,6 @@ margin-bottom: 20px;
   background: url(imagenes/lightbulb_64px.png) no-repeat;
 }
 
+.col-md-8 .col-md-offset-1 .espacio .espacioim{
+  margin-right: 3px;
 }
