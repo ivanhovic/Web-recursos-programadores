@@ -36,16 +36,16 @@
       <div class="jumbotron">
         <h1>¡Conviértete en programador!</h1>
         <p class="lead">Si has llegado aquí, seguramente estés interesado en aprender a programar o simplemente, en perfeccionar lo que ya sabes. Aqui tienes a tu disposición una <b>recopilación</b> de los mejores recursos online.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">¡Empieza!</a></p>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/nKIu9yen5nc" frameborder="0" allowfullscreen></iframe>
+        <p><a class="btn btn-lg btn-success" href="#empieza" role="button">¡Empieza!</a></p>
           <!--<p>Si no tienes ni idea y quieres sumerguirte poco a poco, próximamente tendrás una guía <a href="aperitivo.html">básica</a>,
            otra <a href="almuerzo.html">intermedia</a> y una última más <a href="postre.html">avanzada</a>.</p> -->
       </div>
-
       <div class="container marketing">
 
         <!-- Tres columnas de info -->
 
-        <div class="row">
+        <div id="empieza" class="row">
           <div class="col-lg-4">
             <i class="fa fa-book" style="font-size:10em"></i>
             <h2>Lenguajes</h2>
