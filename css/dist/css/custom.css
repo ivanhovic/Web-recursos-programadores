@@ -44,6 +44,12 @@ margin-bottom: 20px;
   margin-right: 10px;
 }
 
+ul.nav.nav-pills.nav-stacked{
+  background-color: inherit;
+  border-style: ridge;
+  box-shadow: 10px 10px 5px #888888;
+}
+
 /* ------------*/
 
 
