@@ -22,16 +22,26 @@
 
 <!-- ================== NAVBAR ============ -->
 
-    <nav id="top" class="navbar navbar-inverse">
+    <div class="navbar navbar-inverse" role="navigation">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><i class="icon-objc" style="font-size:2em"></i> CodeLab</a>
-          <!--<div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav pull-right">
-              <li><a href="info.html">Info</a></li>
-            </ul>
-          </div>  -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CodeLab</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </div>
 
 <!-- =============== CONTENIDO =================== -->
 
@@ -49,69 +59,230 @@
             </ul>
         </div>
 
+        <!-- ======= C ====== -->
+
       <div class="col-md-7 col-md-offset-1">
           <h2 id="c" class="featurette-heading">C. <span class="text-muted">Lanzando punteros.</span></h2>
-            <p class="lead">Seguramente lo habrás visto en alguna película. Un tio aporreando el teclado mientras una ventana negra del ordenador se llena de letras verdes de las que no entiendes una palabra... Esa ventana es el terminal de comandos, comunmente conocido como <b>consola</b> o <b>terminal</b>, una de las herramientas más intimidantes que hay en el mundo de la informática.</p>
+            <p class="lead">Creado en los 70 por <a href="http://es.wikipedia.org/wiki/Dennis_M._Ritchie">Dennis Ritchie</a>, C es uno de los lenguajes más usados (y menos amigables) que existen. Sin embargo, dicen los expertos, que una vez controles el lenguaje, no habrá otro que se te resista. C es la base de la mayoría de los lenguajes de programación de la actualidad y está presente, por ejemplo, en todos los sistemas operativos.</p>
+            <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#ccollapseOne">
+          Learn C The Hard Way
+        </a>
+      </h4>
+    </div>
+    <div id="ccollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        Curso muy práctico, como todos los cursos de "Learn The Hard Way". Incluye multitud de ejemplos y ejercicios. <a href="http://c.learncodethehardway.org/book/">Link</a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#c2collapseOne">
+          Computer Science for Everyone
+        </a>
+      </h4>
+    </div>
+    <div id="c2collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>Introdución a la programación en C. Explica conceptos de programación básicos como la lógica binaria hasta un nivel más avanzado. Intenta aclarar los conceptos básicos de forma clara y concisa. <a href="http://c.learncodethehardway.org/book/">Link</a></p>
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         <div class="col-md-2">
           <i class="icon-c" style="font-size:10em"></i>
         </div>
       </div>
 
+      <!-- ======= C++ ====== -->
+
       <div class="row">
         <div class="col-md-7 col-md-offset-3">
           <h2 id="cplus" class="featurette-heading">C++ <span class="text-muted">Objetos.</span></h2>
           <p class="lead">Creado por Linus Torvals, Git es una herramienta imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de control de versiones para gestionar tus proyectos. Muy unido también al popular Github, que no es más que un hosting de repositorios creados con Git. </p>
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#cpluscollapseOne">
+          Learn Python the Hard Way
+        </a>
+      </h4>
+    </div>
+    <div id="cpluscollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        PRUEBA1
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-2">
           <i class="icon-cplusplus" style="font-size:10em"></i>
         </div>
       </div>
+      <hr>
+
+      <!-- ======= HTML ====== -->
 
       <div class="row">
         <div class="col-md-7 col-md-offset-3">
           <h2 id="html" class="featurette-heading">Html/Css. <span class="text-muted">Not real programming.</span></h2>
           <p class="lead">Creado por Linus Torvals, Git es una herramienta imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de control de versiones para gestionar tus proyectos. Muy unido también al popular Github, que no es más que un hosting de repositorios creados con Git. </p>
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#hcollapseOne">
+          Learn Python the Hard Way
+        </a>
+      </h4>
+    </div>
+    <div id="hcollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        PRUEBA1
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-2">
           <i class="icon-html" style="font-size:10em"></i>
         </div>
       </div>
+      <hr>
+
+      <!-- ======= JAVA ====== -->
 
       <div class="row">
         <div class="col-md-7 col-md-offset-3">
           <h2 id="java" class="featurette-heading">Java. <span class="text-muted">A cup of coffe.</span></h2>
           <p class="lead">Creado por Linus Torvals, Git es una herramienta imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de control de versiones para gestionar tus proyectos. Muy unido también al popular Github, que no es más que un hosting de repositorios creados con Git. </p>
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#jcollapseOne">
+          Learn Python the Hard Way
+        </a>
+      </h4>
+    </div>
+    <div id="jcollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        PRUEBA1
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-2">
           <i class="icon-java" style="font-size:10em"></i>
         </div>
       </div>
+      <hr>
+
+      <!-- ======= JAVASCRIPT ====== -->
 
       <div class="row"> 
         <div class="col-md-7 col-md-offset-3">
           <h2 id="javascript" class="featurette-heading">JavaScript. <span class="text-muted">Scripting.</span></h2>
           <p class="lead">Sublime es uno de los editores de texto más populares actualmente. Es multiplataforma y soporta un montón de plugins. Ojo, no es gratis, pero existe una versión de prueba que dura eternamente.</p>
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#jscollapseOne">
+          Learn Python the Hard Way
+        </a>
+      </h4>
+    </div>
+    <div id="jscollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        PRUEBA1
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-2">
           <i class="icon-javascript" style="font-size:10em"></i>
         </div>
       </div>
 
+      <hr>
+
+      <!-- ======= PYTHON ====== -->
+
       <div class="row"> 
         <div class="col-md-7 col-md-offset-3">
           <h2 id="python" class="featurette-heading">Python. <span class="text-muted">Take it easy.</span></h2>
           <p class="lead">Lleva muchos años con nosotros, pero ultimamente se ha hecho muy popular. Muchos recomiendan empezar a programar con Python por su legibilidad.</p>
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#p1collapseOne">
+          Learn Python the Hard Way
+        </a>
+      </h4>
+    </div>
+    <div id="p1collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        PRUEBA1
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#p2collapseOne">
+          An Introduction to Interactive Programming in Python
+        </a>
+      </h4>
+    </div>
+    <div id="p2collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        PRUEBA1
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-2">
           <i class="icon-python" style="font-size:10em"></i>
         </div>
       </div>
 
+      <hr>
+
+      <!-- ======= SQL ====== -->
+
       <div class="row">
         <div class="col-md-7 col-md-offset-3">
           <h2 id="sql" class="featurette-heading">SQL. <span class="text-muted">Bases de Datos.</span></h2>
           <p class="lead">Si, como hemos dicho, gran parte de la web esta hecha con Wordpress, la otra mitad está hecha con Bootstrap. </p>
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#sqlcollapseOne">
+          Database Fundation
+        </a>
+      </h4>
+    </div>
+    <div id="sqlcollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        PRUEBA1
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-2">
           <i class="icon-database" style="font-size:10em"></i>
@@ -134,10 +305,10 @@
     </div> <!-- /container -->
 
       <!-- ================================================== -->
-      <!--  JavaScript al final para que la web cargue antes   
+      <!--  JavaScript al final para que la web cargue antes  --> 
       <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-      <script src="dist/js/bootstrap.min.js"></script>
-      <script src="../../docs-assets/js/holder.js"></script> -->
+      <script src="css/dist/js/bootstrap.min.js"></script>
+      <script src="../../docs-assets/js/holder.js"></script>
 
 
   </body>

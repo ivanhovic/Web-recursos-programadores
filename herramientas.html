@@ -23,16 +23,26 @@
 
     <!-- ========= NAVBAR ============ -->
 
-    <nav id="top" class="navbar navbar-inverse">
+    <div class="navbar navbar-inverse" role="navigation">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><i class="icon-objc" style="font-size:2em"></i> CodeLab</a>
-          <!--<div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav pull-right">
-              <li><a href="info.html">Info</a></li>
-            </ul>
-          </div>  -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CodeLab</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </div>
 
     <!-- =============== CONTENIDO =================== -->
 
@@ -49,9 +59,45 @@
             </ul>
         </div>
 
+        <!-- =============== TERMINAL =================== -->
+
         <div class="col-md-7 col-md-offset-1">
-          <h2 id="terminal" class="featurette-heading">Línea de Comandos. <span class="text-muted">Herramienta.</span></h2>
-            <p class="lead">Comunmente conocida como <b>consola</b> o <b>terminal</b>, es una de las herramientas más intimidantes que hay en el mundo de la informática. Sin embargo, una vez comprendido el funcionamiento básico y sus casi infinitas posibilidades, serás capaz de realizar tareas complicadas de una forma rápida y potente con unos pocos comandos.</p>
+          <h2 id="terminal" class="featurette-heading">Terminal de Comandos. <span class="text-muted">Herramienta.</span></h2>
+            <p class="lead">La comunmente conocida como <b>consola</b> o <b>terminal</b>, es una de las herramientas más intimidantes que hay en el mundo de la informática. Sin embargo, una vez comprendido el funcionamiento básico y sus infinitas posibilidades, serás capaz de realizar tareas complicadas de una forma rápida y potente gracias a unos pocos comandos.</p>
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-success">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#ter1scollapseOne">
+          ¿Cómo empezar?
+        </a>
+      </h4>
+    </div>
+    <div id="ter1scollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        Todos los pcs incluyen un terminal, por lo que no será necesario instalar nada. Sólo tenemos que saber dónde encontrarlo:<br><br>
+        <b>Mac</b>: Finder > Aplicaciones > Utilidades > Terminal<br>
+        <b>Linux</b>: Supongo que si usas Linux, ya sabrás dónde buscar.<br>
+        <b>Windows</b>: Inicio > Ejecutar... > cmd<br><br>
+        Lo habrás hecho bien si ves una pantalla que te invita a escribir a partir del símbolo <b>$</b>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#terscollapseOne">
+          The Command Line Crash Course
+        </a>
+      </h4>
+    </div>
+    <div id="terscollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        Una explicaión práctica de los comandos más básicos y, generalmente, los más usados (navegación por el sistema de ficheros, creación de ficheros y directorios, lectura de un fichero, buscar en el manual...). <a href="http://cli.learncodethehardway.org/book/">The Command Line Crash Course</a> 
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         <div class="col-md-2">
           <i class="icon-shell" style="font-size:10em"></i>
@@ -59,20 +105,72 @@
 
       </div><!--/div roW -->
 
+      <!-- =============== GIT =================== -->
+
         <div class="row">
         <div class="col-md-7 col-md-offset-3">
           <h2 id="git" class="featurette-heading">Git. <span class="text-muted">Control de Versiones.</span></h2>
-          <p class="lead">Creado por Linus Torvals. <a href="http://git-scm.com/">Git</a> es una herramienta imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de control de versiones para gestionar tus proyectos. Muy unido también al popular <a href="https://github.com/">Github</a>, que no es más que un hosting de repositorios creados con Git. </p>
+          <p class="lead">Creado por Linus Torvals. <a href="http://git-scm.com/">Git</a> es un programa imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de <a href="http://git-scm.com/book/es/Empezando-Acerca-del-control-de-versiones">control de versiones</a> para gestionar tus proyectos. Muy unido a él está el popular <a href="https://github.com/">Github</a>, que no es más que un hosting de repositorios creados con Git. </p>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#git3scollapseOne">
+                    ¿Cómo empezar?
+                  </a>
+                </h4>
+              </div>
+            <div id="git3scollapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                Un par de aclaraciones antes de empezar:<br>
+                Git es
+        Antes de empezar con Git, te recomiendo es tener unos conocimientos mínimos del terminal. Si es así, ¡adelante!:<br><br>
+        <b>1- </b>Ve a la web de <a href="http://git-scm.com/">Git</a> y descárgate el software.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#gitscollapseOne">
+          Guía sencilla
+        </a>
+      </h4>
+    </div>
+    <div id="gitscollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        Desde los comandos más básicos hasta algunos más complicados en una web bastante cuidada y atractiva. <a href="http://rogerdudler.github.io/git-guide/index.es.html">Link</a> 
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-warning">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#git2scollapseOne">
+          Git Inmmersion
+        </a>
+      </h4>
+    </div>
+    <div id="git2scollapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        Desde los comandos más básicos hasta algunos más complicados en una web bastante cuidada y atractiva. <a href="http://rogerdudler.github.io/git-guide/index.es.html">Link</a> 
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-2">
           <i class="fa fa-github" style="font-size:10em"></i>
         </div>
       </div>
+      <hr>
+
+      <!-- =============== SUBLIME TEXT =================== -->
 
        <div class="row"> 
         <div class="col-md-7 col-md-offset-3">
           <h2 id="sublime" class="featurette-heading">Sublime Text. <span class="text-muted">Editor de texto.</span></h2>
-          <p class="lead">Haz diez cambios a la vez, no un cambio diez veces consecutivas. <a href="http://www.sublimetext.com/">Sublime</a> es uno de los editores de texto más potente y popular. Es multiplataforma y soporta un montón de plugins. Ojo, no es gratis, pero existe una versión de prueba que dura eternamente.</p>
+          <p class="lead">Haz diez cambios a la vez, no un cambio diez veces consecutivas. <a href="http://www.sublimetext.com/">Sublime</a> es uno de los editores de texto más potente y popular entre los desarrolladores. Es multiplataforma y soporta un montón de plugins. Ojo, no es gratis, pero existe una versión de prueba que dura eternamente.</p>
         </div>
         <div class="col-md-2">
           <i class="fa fa-file-text-o" style="font-size:10em"></i>
@@ -108,17 +206,17 @@
         <div class="footer">
           <div class="container">
              <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a>. &middot; <a href="#">Contacto</a></p>
-             <p class="pull-right"><a href="#top">Back to top</a></p>
+             <p class="pull-right"><a href="#top">Volver arriba</a></p>
           </div>
         </div>
 
     </div> <!-- /container -->
 
       <!-- ================================================== -->
-      <!--  JavaScript al final para que la web cargue antes   
+      <!--  JavaScript al final para que la web cargue antes   -->
       <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-      <script src="dist/js/bootstrap.min.js"></script>
-      <script src="../../docs-assets/js/holder.js"></script> -->
+      <script src="css/dist/js/bootstrap.min.js"></script>
+      <script src="../../docs-assets/js/holder.js"></script>
 
 
   </body>
