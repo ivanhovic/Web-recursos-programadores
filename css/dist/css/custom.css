@@ -1,5 +1,5 @@
 .navbar{
-margin-bottom: 20px;
+margin-bottom: 0px;
 }
 
 .footer {
@@ -9,13 +9,23 @@ margin-bottom: 20px;
   padding-bottom: 40px;
 }
 
-/* Main marketing message and sign up button */
+/* ===== JUMBOTRON =======*/
+
 .jumbotron {
-  text-align: center;
+  margin-top: 0px;
+  text-align: left;
   /*background-color: transparent;*/
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #2daee1;
+  /*margin-bottom: 20px;*/
 }
+
+.jumbotron h1{
+  color: white;
+  font-size: 40px;
+}
+
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
@@ -26,6 +36,8 @@ margin-bottom: 20px;
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
+  padding-bottom: 10px;
+  padding-top: 10px; 
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -49,6 +61,7 @@ ul.nav.nav-pills.nav-stacked{
   border-style: ridge;
   box-shadow: 10px 10px 5px #888888;
 }
+
 
 /* ------------*/
 
