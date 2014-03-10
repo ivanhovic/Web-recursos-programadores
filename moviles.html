@@ -3,10 +3,11 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>CodeLab | Móviles</title>
+    <title>Codéalo | Móviles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="css/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
+    <link href="css/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/dist/css/bootstrap-theme.css" rel="stylesheet" media="screen"> 
 
 <!-- ============ CUSTOM CSS ============= -->
     <link href="css/dist/css/custom.css" rel="stylesheet">
@@ -32,13 +33,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">CodeLab</a>
+          <a class="navbar-brand" href="index.html">Codéalo</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -49,25 +50,34 @@
     <div class="container">
 
     <div class="row">
-        <div class="col-md-2">
-            <ul class="nav nav-pills nav-stacked">
-              <li><a href="#android">Android</a></li>
-              <li><a href="#ios">iOS</a></li>
-              <!--<li><a href="#firefox">Firefox</a></li>-->
-            </ul>
-        </div>
+
+      <!--<div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="#android">Android</a></li>
+            <li><a href="#ios">iOS</a></li>
+            <<li><a href="#firefox">Firefox</a></li>
+        </ul>
+      </div>-->
+        
+      <div class="col-md-10 col-md-offset-1">
+        <img src="imagenes/mov1.jpg" class="img-responsive">
+      </div>
+      
+    </div>
+    <hr>
 
         <!-- ============= ANDROID =================== -->
 
-        <div class="col-md-7 col-md-offset-1">
-          <h2 id="android" class="featurette-heading">Android. <span class="text-muted">Google.</span></h2>
-            <p class="lead">Android es el sistema operativo móvil más usado en el mundo. Aprende a crear aplicaciones usando Java, así como a utilizar las poderosas herramientas de desarrollo que ofrece Google.</p>
+        <div class="row">
+        <div class="col-sm-7 col-sm-offset-1">
+          <h2 id="android" class="featurette-heading">Android. <span class="text-muted">Google</span></h2>
+            <p class="lead">Android es el sistema operativo móvil más usado en el mundo. Aprende a crear aplicaciones usando <a href="http://codealo.es/lenguajes.html#java">Java</a>, así como a utilizar las poderosas herramientas de desarrollo que ofrece Google.</p>
             <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
+            <div class="panel panel-success">
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#androidcollapseOne">
-                    Lorem ipsum ad his scripta
+                    Iniciación
                   </a>
                 </h4>
               </div>
@@ -93,23 +103,24 @@
   </div>
 </div>
           </div>
-        <div class="col-md-2">
-          <i class="fa fa-android" style="font-size:10em"></i>
+        <div class="col-sm-2">
+          <i class="fa fa-android hidden-xs" style="font-size:10em"></i>
         </div>
       </div>
+      <hr>
 
-        <!-- ============= IOS =================== -->
+        <!-- ==================== IOS =================== -->
 
       <div class="row">
-        <div class="col-md-7 col-md-offset-3">
-          <h2 id="ios" class="featurette-heading">iOS. <span class="text-muted">Apple.</span></h2>
+        <div class="col-sm-7 col-sm-offset-1">
+          <h2 id="ios" class="featurette-heading">iOS. <span class="text-muted">Apple</span></h2>
           <p class="lead">iOS es el sistema operativo desarrollado por Apple que utilizan los iPhones y los iPads. Aprende a crear aplicaciones usando Objective-C y el entorno de X-Code. </p>
           <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
+            <div class="panel panel-success">
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#ioscollapseOne">
-                    Lorem ipsum ad his scripta
+                    Iniciación
                   </a>
                 </h4>
               </div>
@@ -135,21 +146,10 @@
   </div>
 </div>
         </div>
-        <div class="col-md-2">
-          <i class="icon-iphone" style="font-size:10em"></i>
+        <div class="col-sm-2">
+          <i class="icon-iphone hidden-xs" style="font-size:10em"></i>
         </div>
       </div>
-
-        <!--
-        <div class="row">
-        <div class="col-md-7 col-md-offset-3">
-          <h2 id="direfox" class="featurette-heading">Firefox. <span class="text-muted">Control de Versiones.</span></h2>
-          <p class="lead">Creado por Linus Torvals, Git es una herramienta imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de control de versiones para gestionar tus proyectos. Muy unido también al popular Github, que no es más que un hosting de repositorios creados con Git. </p>
-        </div>
-        <div class="col-md-2">
-          <i class="icon-c" style="font-size:10em"></i>
-        </div>
-      </div> -->
 
 
       </div>
@@ -159,7 +159,7 @@
 
         <div class="footer">
           <div class="container">
-             <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a>. &middot; <a href="#">Contacto</a></p>
+             <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
              <p class="pull-right"><a href="#top">Back to top</a></p>
           </div>
         </div>
