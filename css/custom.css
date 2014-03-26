@@ -1,0 +1,79 @@
+.navbar{
+margin-bottom: 0px;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* ===== JUMBOTRON =======*/
+
+.jumbotron {
+  margin-top: 0px;
+  text-align: left;
+  /*background-color: transparent;*/
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #2daee1;
+  /*margin-bottom: 20px;*/
+}
+
+.jumbotron h1{
+  color: white;
+  font-size: 40px;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-bottom: 10px;
+  padding-top: 10px; 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.nav.nav-pills.nav-stacked{
+  background-color: inherit;
+  border-style: ridge;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+
+/* ------------*/
+
+
+/* LOGOS AND ICONS
+======================== */
+.brand{
+  width: 100px;
+  height: 20px;
+  background: url(imagenes/lightbulb_64px.png) no-repeat;
+}
+
+.col-md-8 .col-md-offset-1 .espacio .espacioim{
+  margin-right: 3px;
+}
