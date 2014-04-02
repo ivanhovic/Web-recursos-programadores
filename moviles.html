@@ -3,8 +3,9 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Codéalo | Móviles</title>
+    <title>Codéalo - Una selección de los mejores cursos online para aprender Android o iOS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Recopilación de cursos online o moocs para iniciarse y programar aplicaciones para móviles: iOS y Android">
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen"> 
@@ -21,6 +22,7 @@
   </head>
 
   <body>
+    <?php include_once("analyticstracking.php") ?>
 
     <!-- ========= NAVBAR ============ -->
 
@@ -60,96 +62,114 @@
       </div>-->
         
       <div class="col-md-10 col-md-offset-1">
-        <img src="imagenes/mov1.jpg" class="img-responsive" alt="moviles">
+        <img src="imagenes/mov1.jpg" class="img-responsive hidden-xs" alt="moviles">
       </div>
       
     </div>
-    <hr>
+    <hr class= "hidden-xs">
 
         <!-- ============= ANDROID =================== -->
 
         <div class="row">
         <div class="col-sm-7 col-sm-offset-1">
-          <span class="label label-danger">En construcción...</span>
           <h2 id="android" class="featurette-heading">Android. <span class="text-muted">Google</span></h2>
-            <p class="lead">Android es el sistema operativo móvil más usado en el mundo. Aprende a crear aplicaciones usando <a href="http://codealo.es/lenguajes.html#java">Java</a>, así como a utilizar las poderosas herramientas de desarrollo que ofrece Google.</p>
+            <p class="lead">Android es un sistema operativo desarrollado actualmente por Google. Digo actualmente, porque antes de que Google lo comprara, Android ya existía. Por entonces, era un proyecto de <a href="http://es.wikipedia.org/wiki/Software_libre">software libre</a>, y gracias a eso, ahora también lo es. Cualquiera puede hacerse su propia versión ( Opción que muchos fabricantes de móviles tienen en cuenta y por lo que es tan popular ).</p>
+            <p class="lead"> Aprenderás a crear aplicaciones usando <a href="http://codealo.es/lenguajes.html#java">Java</a>, así como a utilizar las poderosas herramientas de desarrollo que ofrece Google.</p>
             <div class="panel-group" id="accordion">
+
             <div class="panel panel-success">
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a data-toggle="collapse" data-parent="#accordion" href="#androidcollapseOne">
-                    ¿Cómo empezar?
+                    <p>¿Cómo empezar?</p>
                   </a>
                 </h4>
               </div>
             <div id="androidcollapseOne" class="panel-collapse collapse">
               <div class="panel-body">
-                Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-info">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#android2collapseOne">
-          Lorem ipsum ad his scripta
-        </a>
-      </h4>
-    </div>
-    <div id="android2collapseOne" class="panel-collapse collapse">
-      <div class="panel-body">
-        Lorem ipsum ad his scripta 
-      </div>
-    </div>
-  </div>
-</div>
+                <p>La mejor introducción posible al mundo de Android es conocer a fondo la herramienta que utilizarás constantemente, Eclipse.</p>
+                <p>Aunque los cursos de Android normalmente ofrecen una introducción a Java, no estaría de más un curso de iniciación al lenguaje.</p>
+              </div>
+            </div>
           </div>
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#android2collapseOne">
+                  <p>Intermedio</p>
+                </a>
+              </h4>
+            </div>
+            <div id="android2collapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>Coursera tiene dos cursos MUY completos sobre aplicaciones en Android:</p>
+                <ul>
+                  <li><a href="https://www.coursera.org/course/android">Programming Mobile Applications for Android Handheld Systems 
+                    <span class="label label-default">Inglés</span></a></li>
+                  <li><a href="https://www.coursera.org/course/androidapps101">Creative, Serious and Playful Science of Android Apps 
+                    <span class="label label-default">Inglés</span></a></li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
         <div class="col-sm-2">
           <i class="fa fa-android hidden-xs" style="font-size:10em"></i>
         </div>
       </div>
+
       <hr>
 
         <!-- ==================== IOS =================== -->
 
       <div class="row">
         <div class="col-sm-7 col-sm-offset-1">
-          <span class="label label-danger">En construcción...</span>
           <h2 id="ios" class="featurette-heading">iOS. <span class="text-muted">Apple</span></h2>
-          <p class="lead">iOS es el sistema operativo desarrollado por Apple que utilizan los iPhones y los iPads. Aprende a crear aplicaciones usando Objective-C y el entorno de X-Code. </p>
+          <p class="lead">iOS es el sistema operativo desarrollado por Apple que utilizan los iPhones y los iPads. Para crear aplicaciones deberás aprender Objective-C y el entorno de X-Code. </p>
           <div class="panel-group" id="iosaccordion">
+
             <div class="panel panel-success">
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a data-toggle="collapse" data-parent="#iosaccordion" href="#ioscollapseOne">
-                    ¿Cómo empezar?
+                    <p>¿Cómo empezar?</p>
                   </a>
                 </h4>
               </div>
             <div id="ioscollapseOne" class="panel-collapse collapse">
               <div class="panel-body">
-                Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-info">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#iosaccordion" href="#ios2collapseOne">
-          Lorem ipsum ad his scripta
-        </a>
-      </h4>
-    </div>
-    <div id="ios2collapseOne" class="panel-collapse collapse">
-      <div class="panel-body">
-        Lorem ipsum ad his scripta 
-      </div>
-    </div>
-  </div>
-</div>
+                <p>En muchos cursos de iniciación al desarrollo en Objetive-C (el lenguaje de programación en entornos iOS), recomiendan hacer un pequeño recorrido por C. De hecho, Objective-C está desarrollado a partir de C, por lo que tienen muchas similitudes.</p>
+                <p>Otra cosa a tener muy en cuenta es poder disponer de un Mac. No se puede programar aplicaciones para iOS desde Windows ,al menos de momento. Si no dispones de uno existen soluciones como montar una máquina virtual.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#iosaccordion" href="#ios2collapseOne">
+                  <p>Intermedio</p>
+                </a>
+              </h4>
+            </div>
+            <div id="ios2collapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                  <li>Son bastante famosos los cursos de la Universidad de Standford</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
+        </div>
+
         <div class="col-sm-2">
-          <i class="icon-iphone hidden-xs" style="font-size:10em"></i>
+          <i class="fa fa-apple hidden-xs" style="font-size:10em"></i>
         </div>
       </div>
 

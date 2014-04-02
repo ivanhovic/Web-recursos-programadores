@@ -2,8 +2,9 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Codealo</title>
+    <title>Codéalo - Preguntas y respuestas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Preguntas y respuestas frecuentes referentes a Codéalo.es">
     <!-- STYLES COMPLETE -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="ss/bootstrap-theme.css" rel="stylesheet" media="screen"> 
@@ -16,6 +17,7 @@
   </head>
 
   <body>
+    <?php include_once("analyticstracking.php") ?>
 
 <!-- =============== NAVBAR ============ -->
 
@@ -49,6 +51,7 @@
           <div class="col-sm-8 col-sm-offset-1">
             <h2>Preguntas más frecuentes:</h2>
             <div class="panel-group" id="accordion">
+
               <div class="panel panel-info">
                 <div class="panel-heading">
                   <h4 class="panel-title">
@@ -63,6 +66,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="panel panel-info">
                 <div class="panel-heading">
                   <h4 class="panel-title">
@@ -77,6 +81,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="panel panel-info">
                 <div class="panel-heading">
                   <h4 class="panel-title">
@@ -96,6 +101,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="panel panel-info">
                 <div class="panel-heading">
                   <h4 class="panel-title">
@@ -110,6 +116,22 @@
                   </div>
                 </div>
               </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                      ¿Puedo ayudar?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Todo el código de la web esta subido a <a href="https://github.com/ivanhovic/Web-recursos-programadores">Github</a>. Estaré encantado de recibir ayuda, suguerencias, recomendaciones...etc</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
