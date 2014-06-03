@@ -42,8 +42,9 @@ margin-bottom: 0px;
 .footer {
   border-top: 1px solid #eee;
   margin-top: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #eee;
 }
 
 /* ====== END FOOTER ====*/
@@ -55,7 +56,8 @@ margin-bottom: 0px;
   text-align: left;
   /*background-color: transparent;*/
   padding: 30px;
-  background-color: #64a8d1;
+  /*background-color: #64a8d1;*/
+  background: url('../imagenes/2.jpg') no-repeat center center;
 }
 .jumbotron h1{
   font-size: 2em;
@@ -119,4 +121,14 @@ ul.nav.nav-pills.nav-stacked{
 
 .col-md-8 .col-md-offset-1 .espacio .espacioim{
   margin-right: 3px;
+}
+
+/* PANEL HEADING AHORA se puede pinchar todo el botón, antes solo las letras */
+.panel-heading a{
+  display: block;
+}
+
+.contenido_estatico{
+  font-size: 1.25em;
+  text-align: center;
 }
