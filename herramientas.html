@@ -17,10 +17,20 @@
     <link rel="stylesheet" href="font-mfizz-1.2/font-mfizz.css">
     <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css">
 
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44178839-2', 'codealo.es');
+  ga('send', 'pageview');
+
+</script>
+
   </head>
 
   <body>
-    <?php include_once("analyticstracking.php") ?>
 
     <!-- ========= NAVBAR ============ -->
 
@@ -69,9 +79,10 @@
 
         <!-- =============== TERMINAL =================== -->
         <div class="row">
-        <div class="col-sm-7 col-sm-offset-1">
+        <div class="col-sm-8 col-sm-offset-1">
           <h2 id="terminal" class="featurette-heading">Terminal de Comandos. <span class="text-muted">Herramienta.</span></h2>
-            <p class="lead">La comunmente conocida como <b>consola</b> o <b>terminal</b>, es una de las herramientas más intimidantes que hay en el mundo de la informática. Sin embargo, una vez comprendido el funcionamiento básico y sus infinitas posibilidades, serás capaz de realizar  complicadas tareas de una forma rápida gracias a unos pocos comandos.</p>
+            <p class="lead">La comunmente conocida como <b>consola</b> o <b>terminal</b>, es una de las herramientas más intimidantes que hay en el mundo de la informática. Básicamente consiste en interactuar con el sistema operativo unicamente con texto, nada de iconos, carpetas o ratón, sólo texto. Así pues, una vez comprendido el funcionamiento básico y sus infinitas posibilidades, serás capaz de realizar complicadas tareas de una forma rápida gracias a unos pocos comandos.</p>
+            <p class="lead">También es necesario señalar que aunque hay muchas posibilidades y comandos, en el día a día, lo normal, es utilizar unos pocos de ellos. Entonces, ¿por qué es necesario? En un principio no mucho, pero al avanzar, verás que algunas cosas sólo podrán hacerse de este modo.</p>
             <div class="panel-group" id="accordion">
               <div class="panel panel-success">
     <div class="panel-heading">
@@ -85,14 +96,14 @@
       <div class="panel-body">
         <p>Todos los Pc's incluyen un terminal, por lo que no será necesario instalar nada. Sólo hay que saber dónde encontrarlo:</p>
         <ul>
-        <li><b>Mac</b>: Finder > Accesorios > Utilidades > Terminal.</li>
+        <li><b>Mac</b>: Finder > Aplicaciones > Utilidades > Terminal.</li>
         <li><b>Linux</b>: Si usas Linux, seguramente sabrás dónde buscar.</li>
         <li><b>Windows</b>: Inicio > Accesorios > Símbolo del Sistema.</li>
         </ul>
 
-        <p><b>P.D</b>: Amigos de Windows, podéis usar el terminal de vuestro equipo, pero <a href="http://cygwin.com/">Cygwin</a> es vuestro amigo. Os explico: el terminal de Windows no suele usarse mucho. De hecho, si ojeais muchos de los tutoriales que hay por internet, la mayoría de ellos usan comandos UNIX, algo que no entenderá vuestro PC.</p>
+        <p><b>P.D</b>: Amigos de Windows, podéis usar el terminal de vuestro equipo, pero <a href="http://cygwin.com/">Cygwin</a> es vuestro amigo. Os explico: en la vida real, <a href="http://bitelia.com/2014/05/linux-servidores">Windows no suele usarse mucho</a>. De hecho, si ojeáis, la mayoría de los tutoriales que hay por internet usan comandos <a href="http://es.wikipedia.org/wiki/Unix">UNIX</a>, algo que no entenderá vuestro SO (Windows). Sin embargo, con Cygwin podrás replicar los comandos de Unix en Windows.</p>
         
-        <p>Podrás empezar si ves una pantalla que te invita a escribir a partir del símbolo <code>$</code>.</p>
+        <p>Podrás empezar si después de ejecutar tu terminal, ves una pantalla que te invita a escribir a partir del símbolo <code>$</code>.</p>
 
       </div>
     </div>
@@ -126,9 +137,9 @@
       <!-- =============== GIT =================== -->
 
         <div class="row">
-        <div class="col-sm-7 col-sm-offset-1">
+        <div class="col-sm-8 col-sm-offset-1">
           <h2 id="git" class="featurette-heading">Git. <span class="text-muted">Control de Versiones.</span></h2>
-          <p class="lead">Creado por Linus Torvals, <a href="http://git-scm.com/">Git</a> es un programa imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de <a href="http://git-scm.com/book/es/Empezando-Acerca-del-control-de-versiones">control de versiones</a> para gestionar tus proyectos. Muy unido a él está el popular <a href="https://github.com/">Github</a>, que no es más que un hosting de repositorios creados con Git. </p>
+          <p class="lead">Creado por Linus Torvals, <a href="http://git-scm.com/">Git</a> es un programa imprescindible para no volverte loco. Quieras o no, como desarrollador, en algún momento deberás aprender algún sistema de <a href="http://git-scm.com/book/es/Empezando-Acerca-del-control-de-versiones">control de versiones</a> para gestionar tus proyectos. ¿Que cambios hice ayer?¿Puedo recuperar una versión de mi proyecto de la semana pasada?. Git es lo que separa el hobby de algo más profesional. Muy unido a él está el popular <a href="https://github.com/">Github</a>, que no es más que un hosting de repositorios creados con Git. </p>
           <div class="panel-group" id="accordion2">
             <div class="panel panel-success">
               <div class="panel-heading">
@@ -142,9 +153,10 @@
               <div class="panel-body">
                 <p>Lo primero es lo primero. Aunque se puede trabajar con Git de una forma gráfica, es casi imprescindible tener unos conocimientos mínimos del <a href="http://codealo.es/herramientas.html#terminal">terminal</a>. Si ya lo dominas, ¡adelante!:<p>
                 <ol>
-                  <li>Ve a la web de <a href="http://git-scm.com/">Git</a> y descárgate la versión correspondiente para tu sistema operativo.</li>
+                  <li><a href="https://www.youtube.com/watch?v=8oRjP8yj2Wo">¿Qué es Git?</a> (vídeo) <span class="label label-default">Inglés</span></li>
+                  <li>Ve a la web de <a href="http://git-scm.com/">Git</a>, descárgate y instala la versión correspondiente para tu sistema operativo.</li>
                   <li>Después de la instalación, ejecuta <code>git</code> en el terminal. Si sale algo parecido a <a href="imagenes/gitok.png">esto</a>, lo habrás conseguido.</li>
-                  <li> A partir de aquí, en los siguientes tutoriales podrás continuar el aprendizaje de los comandos especificos de Git. Sin embargo, una buena opción antes de eso, es hacerte una cuenta en <a href="https://github.com/">Github</a>, bajarte su programa (<a href="https://mac.github.com/">Mac</a> o <a href="https://windows.github.com/">Windoes</a>) y sincronizar algún repositorio, te aclarará bastante las cosas.</li>
+                  <li> En los siguientes tutoriales podrás continuar el aprendizaje de los comandos especificos de Git. Sin embargo, una buena opción antes de eso, es hacerte una cuenta en <a href="https://github.com/">Github</a>, bajarte su programa (<a href="https://mac.github.com/">Mac</a> o <a href="https://windows.github.com/">Windows</a>), crear y sincronizar algún repositorio. Te aclarará bastante las cosas.</li>
                 </ol>
               </div>
             </div>
@@ -199,7 +211,7 @@
       <!-- =============== SUBLIME TEXT =================== -->
 
        <div class="row"> 
-        <div class="col-sm-7 col-sm-offset-1">
+        <div class="col-sm-8 col-sm-offset-1">
           <span class="label label-danger">En construcción...</span>
           <h2 id="sublime" class="featurette-heading">Sublime Text. <span class="text-muted">Editor de texto.</span></h2>
           <p class="lead">Haz diez cambios a la vez, no un cambio diez veces consecutivas. <a href="http://www.sublimetext.com/">Sublime</a> (así lo llamamos los amigos), se ha convertido en uno de los editores de texto más potente y popular entre los desarrolladores. Es sencillo, muy rápido, multiplataforma y soporta un montón de plugins. Ojo, no es gratis, pero existe una versión de prueba que dura eternamente.</p>
@@ -259,7 +271,10 @@
         <div class="footer">
           <div class="container">
              <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
+             <p class="pull-left"><a href="https://github.com/ivanhovic/Web-recursos-programadores"><i class="fa fa-github" style="font-size:3em"></i></a></p>
+             <p class="pull-left"><a href="https://twitter.com/ivanhovic"><i class="fa fa-twitter" style="font-size:3em"></i></a></p>
              <p class="pull-right"><a href="#top">Arriba</a></p>
+             
           </div>
         </div>
 

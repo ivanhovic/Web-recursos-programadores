@@ -3,25 +3,41 @@
 <html lang="es">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Codéalo - Una selección de los mejores cursos online para aprender a programar</title>
+    <title>Codéalo - Crea una aplicación web desde cero</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Aprende todo lo relacionado con el mundo de la programación gracias a una selección de los mejores cursos online o moocs.">
+    <meta name="description" content="Desarrolla una aplicación web desde cero gracias a una selección de los mejores cursos online o moocs.">
 
-    <!-- STYLES COMPLETE -->
+    <!-- ============ FONTS ============ -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+    <!-- =========ESTiLOS =============== -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <!-- CUSTOM CSS -->
+    <!-- ============ CUSTOM CSS ============= -->
     <link href="css/custom.css" rel="stylesheet">
     
-    <!-- ICONOS -->
+    <!-- ============== ICONOS ========== -->
     <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="font-mfizz-1.2/font-mfizz.css">
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44178839-2', 'codealo.es');
+  ga('send', 'pageview');
+
+</script>
 
   </head>
 
   <body>
-    <?php include_once("analyticstracking.php"); ?>
+
+    
+
 <!-- =============== NAVBAR ============ -->
 
     <div class="navbar navbar-custom navbar-static-top" role="navigation">
@@ -50,72 +66,67 @@
 
       <div class="jumbotron">
         <div class="container">
-          <div class="col-sm-8">
-        <h1>¿Qué quieres aprender hoy?</h1>
-        <p>¿Quizás hacer una web con Html? ¿Una App para Android? ¿Te suena Phyton? ¿Quieres saber de qué va eso de la programación? Aqui encontrarás una recopilación de los mejores recursos online que existen.</p>
-        <!--<p><a class="btn btn-lg btn-success" href="#empieza" role="button">¡Empieza!</a></p>-->
-          <!--<p>Si no tienes ni idea y quieres sumerguirte poco a poco, próximamente tendrás una guía <a href="aperitivo.html">básica</a>,
-           otra <a href="almuerzo.html">intermedia</a> y una última más <a href="postre.html">avanzada</a>.</p> -->
-      </div>
-      <!--<div class="col-lg-4">
-        <i class="fa fa-keyboard-o" style="font-size:8em"></i>
-      </div>-->
+          <div class="col-sm-3">
+            <h1>Crea una aplicación web desde cero</h1>
+            <p><a class="btn btn-lg btn-success" href="desarrolloweb.html" role="button">¡Vamos a ello!</a></p>
+          </div> 
       </div>
     </div>
 
-       <div class="container">
+      <div class="container">
+      
       <div class="marketing">
-        <!--<div class="container">-->
+
         <!-- Tres columnas de info -->
 
         <div id="empieza" class="row">
+
           <div class="col-sm-4">
             <div class="centrar">
-            <i class="fa fa-keyboard-o hidden-xs" style="font-size:10em"></i>
-            <h2>Lenguajes</h2>
-            <p>Existen multitud de lenguajes de programación, unos más fáciles que otros, claro está. Aún así, ya no tienes excusa, ¡elige uno y empieza a aprender!</p>
-            <p><a class="btn btn-primary" href="lenguajes.html" role="button">Aprender &raquo;</a></p>
+            <i class="fa fa-rocket" style="font-size:10em"></i>
+            <h2>Desarrollo Web</h2>
+            <p>¿Qué es una aplicación web?, ¿Qué hace un desarrollador web?, ¿Por dónde empiezo?.</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="centrar">
-            <i class="fa fa-rocket hidden-xs" style="font-size:10em"></i>
+            <i class="fa fa-cog" style="font-size:10em"></i>
             <h2>Herramientas</h2>
-            <p>Descubre, una a una, las herramientas imprescindibles en el mundo del desarrollo. Aquí, el tiempo es oro. ¡No lo desperdicies!</p>
-            <p><a class="btn btn-primary" href="herramientas.html" role="button">Aprender &raquo;</a></p>
+            <p>¿Qué herramientas me facilitarán el trabajo?, ¿Qué es Git?, ¿Qué es un framework?.</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="centrar">
-            <i class="fa fa-mobile hidden-xs" style="font-size:10em"></i>
-            <h2>Móviles</h2>
-            <p>Seguramente ya tienes la idea perfecta. Sólo necesitas un poco de ayuda para empezar a desarrollar la app tanto para iOS o Android.</p>
-            <p><a class="btn btn-primary" href="moviles.html" role="button">Aprender &raquo;</a></p>
+            <i class="fa fa-keyboard-o" style="font-size:10em"></i>
+            <h2>Lenguajes</h2>
+            <p>¿Qué debo aprender?, ¿HTML, PHP, Ruby, Python?, ¿en qué se diferencian?, ¿Qué elijo yo?.</p>
             </div>
-          </div>
+          </div> 
+
         </div><!-- /.row -->
       </div>
-
     </div> <!-- /container -->
 
 <!-- =========== END CONTENIDO =========== -->
 
 <!--=============== FOOTER =========== -->
 
-        <div class="footer">
+       <div class="footer">
           <div class="container">
+             <!--
              <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
+           -->
+             <p class="pull-left"><a href="https://github.com/ivanhovic/Web-recursos-programadores"><i class="fa fa-github" style="font-size:2.5em"></i></a></p>
+             <p class="pull-left"><a href="https://twitter.com/ivanhovic"><i class="fa fa-twitter" style="font-size:2.5em"></i></a></p>
              <p class="pull-right"><a href="#top">Arriba</a></p>
+             
           </div>
         </div>
 
 
-      <!-- ================================================== -->
-      <!--  JavaScript al final para que la web cargue antes   -->
+        <!-- ========= JAVASCRIPT =========== -->
       <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
       <script src="css/dist/js/bootstrap.min.js"></script>
-      <script src="../../docs-assets/js/holder.js"></script>
-
 
   </body>
 </html>

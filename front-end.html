@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+  
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Codéalo | Front End</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tutoriales para el dominio de las herramientas necesarias para programar: Editores de texto, Git, el terminal y mucho más.">
+
+    <!-- ============ FONTS ============ -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+    <!-- =========ESTiLOS =============== -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen"> 
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- ============ CUSTOM CSS ============= -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- ============== ICONOS ========== -->
+    <link rel="stylesheet" href="font-mfizz-1.2/font-mfizz.css">
+    <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44178839-2', 'codealo.es');
+  ga('send', 'pageview');
+
+</script>
+
+
+  </head>
+
+  <body>
+
+    <!-- ========= NAVBAR ============ -->
+
+    <div class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Codéalo</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- =============== CONTENIDO =================== -->
+
+    <div class="container">
+
+      <!--<div class="row">
+        <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#terminal">Línea de Comandos</a></li>
+              <li><a href="#git">Git</a></li>
+              <li><a href="#sublime">Sublime Text</a></li>
+              <li><a href="#wordpress">Wordpress</a></li>
+              <li><a href="#bootstrap">Bootstrap</a></li>
+            </ul>
+        </div>-->
+
+        <div class="col-sm-7 col-sm-offset-2">
+          <h1>El Front-End</h1>
+          <p class="lead">Ahora que ya sabes qué hacen los desarrolladores web, es el momento de ensuciarse las manos y hacer lo que hacen ellos. En esta primera parte aprenderás los fundamentos de la programación web. Aprenderás a construir una web sencilla con HTML, darle estilo con CSS y añadir algunos elementos interactivos con JavaScript. Puede que por ahora no entiendas nada, pero no te preocupes, irás comprendiéndolo poco a poco.</p> 
+          <p class="lead">Básicamente en esto consiste el llamado Front-End. Si una web fuera una casa, el Front-End se encargaría de hacer esa casa bonita y atractiva. ¿un ejemplo? Esta web (de momento) sólo utiliza HTML, CSS y Javascript.</p>
+        </div>
+
+        <!-- ================ LA WEB ================ -->
+
+        <div class="row">
+
+
+        <div class="col-sm-7 col-sm-offset-2">
+          
+          <h2 id="sublime" class="featurette-heading">0. <span class="text-muted">Configuración</span></h2>
+          <p class="lead">Antes de empezar, necesitaremos configurar nuestro entorno de trabajo. Esta primera parte no requiere mucho: un navegador web y un editor de texto. De hecho, seguramente ya tengamos ambas cosas instaladas. Sin embargo, recomendaremos un par de ellas para trabajar en las mejores condiciones:</p>
+          <div class="panel-group" id="accordion3">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion3" href="#sublimecollapseOne">
+                    Editor de texto: Sublime Text
+                  </a>
+                </h4>
+              </div>
+              <div id="sublimecollapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p class="lead">Haz diez cambios a la vez, no un cambio diez veces consecutivas. <a href="http://www.sublimetext.com/">Sublime</a> (así lo llamamos los amigos), se ha convertido en uno de los editores de texto más potentes y popularers entre los desarrolladores. Es sencillo, muy rápido, multiplataforma y soporta un montón de plugins. Ojo, no es gratis, pero existe una versión de prueba que dura eternamente.</p>
+                <ul>
+                  <li class="lead"><a href="http://www.sublimetext.com/">Descarga</a></li>
+                  <li class="lead">¿Por qué es mejor Sublime?¿Qué ofrece? Este videotutorial completamente gratuito recorre las ventajas, así como el funcionamiento básico de Sublime, la instalación, atajos de teclado, instalación de pluggins...etc: <a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/">Perfect Workflow in Sublime Text 2 </a><span class="label label-default">Inglés</span> <span class="label label-default">Gratis</span></li>
+                </ul>
+                <p class="lead">Vale, ¿y para que necesito un editor de texto?, ¿no me vale con el Word? No, a partir de ahora escribirás código, no texto. Word está preparado para texto y Sublime está preparado para programar.</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion2" href="#git1scollapseOne">
+                  Navegador: Chrome o Firefox
+                </a></h4>
+            </div>
+            <div id="git1scollapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p class="lead">Para empezar nos valdría con cualquier navegador (Chrome, Firefox, Safari, Opera, Explorer), sin embargo <a href="http://www.google.com/intl/es_es/chrome/">Google</a> y <a href="https://www.mozilla.org/es-ES/firefox/new/">Firefox</a> son los que llevan la delantera en cuanto a adaptar los nuevos estándares de la web a sus navegadores. Por ello y por su buen rendimiento, nos decidimos por uno de los dos.</p>
+              </div>
+            </div>
+          </div>
+
+
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <i class="fa fa-gears hidden-xs" style="font-size:10em"></i>
+        </div>
+      </div>
+
+      <hr>
+
+        <!-- =============== HTML =================== -->
+
+        <div class="row">
+        <div class="col-sm-7 col-sm-offset-2">
+          <h2 id="terminal" class="featurette-heading">1. <span class="text-muted">HTML</span></h2>
+            <p class="lead">El HTML (Hyper Text Markup Language) es un lenguaje de marcado que estructura cada elemento de la web. Por ejemplo, este texto que estás leyendo está contenido en una etiqueta especial llamada <code>p</code>, de párrafo. Las imágenes <code>img</code>, el audio <code>audio</code>, las listas <code>li</code> y los videos <code>video</code>, también tienen sus propias etiquetas. Es tan fácil como delimitar un elemento en sus respectivas etiquetas. </p>
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#htmlcollapse">
+                      ¿Cómo empezar?
+                    </a>
+                  </h4>
+                </div>
+                <div id="htmlcollapse" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul>
+                    <li><p>Los cursos interactivos de Codecademy son un buen lugar para empezar. Existen dos:</p>
+                      <ul>
+                        <li>El curso básico de HTML, mezclado con algo de CSS: <a href="http://www.codecademy.com/es/tracks/html-css-traduccion-al-espanol-america-latina-clone">HTML & CSS</a>
+                        <span class="label label-default">Español</span> <span class="label label-default">Gratis</span></li>
+                        <li>Otro curso interactivo que te enseña a crear un sitio web comparándolo con uno real: <a href="http://www.codecademy.com/es/skills/make-a-website">Make a website</a>
+                        <span class="label label-default">Inglés</span> <span class="label label-default">Gratis</span></li></li>
+                      </ul><br>
+                    <li><p>Dash también tiene uno curso interactivo con varios proyectos muy interesantes. Para empezar está genial: <a href="https://dash.generalassemb.ly/"> Learn to make awesome websites </a><span class="label label-default">Inglés</span> <span class="label label-default">Gratis</span></p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#html2collapse">
+                      Intermedio
+                    </a>
+                  </h4>
+                </div>
+                <div id="html2collapse" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul>
+                      <li><p>En construcción...</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-sm-2">
+          <i class="fa fa-html5 hidden-xs" style="font-size:10em"></i>
+        </div>
+
+      </div><!--/div roW -->
+      <hr>
+
+      <!-- =============== CSS =================== -->
+
+        <div class="row">
+        <div class="col-sm-7 col-sm-offset-2">
+          <h2 id="git" class="featurette-heading">2. <span class="text-muted">CSS</span></h2>
+          <p class="lead">El CSS (Cascade style sheets) se usa para definir el estilo del HTML. Pogamos un ejemplo: En el caso de escribir un texto y rodearlo con su etiqueta HTML correspondiente: <code>p</code>, podriamos querer cambiar la fuente de la letra, el tamaño o el color. Todo eso lo hace el CSS y SOLO el CSS. </p>
+          <div class="panel-group" id="accordion2">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion2" href="#csscollapseOne">
+                    ¿Cómo empezar?
+                  </a>
+                </h4>
+              </div>
+            <div id="csscollapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                En construcción...
+              </div>
+            </div>
+          </div>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion2" href="#css1scollapseOne">
+                Intermedio
+              </a>
+            </h4>
+          </div>
+          <div id="css1scollapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <ul>
+              <li>Aprende sobre los estilos por defecto de cada navegador y sobre las distintas herramientas para resetearlos: reset y normalize</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+
+
+        <div class="col-sm-2">
+          <i class="fa fa-css3 hidden-xs" style="font-size:10em"></i>
+        </div>
+      </div>
+
+      <hr>
+    
+    <!-- =============== JS =================== -->
+
+        <div class="row">
+        <div class="col-sm-7 col-sm-offset-2">
+          <h2 id="git" class="featurette-heading">3. <span class="text-muted">Javascript</span></h2>
+          <p class="lead">JavaScript es el lenguaje de moda. Gracias a él, aprenderás a añadir elementos interactivos a tu web, e incluso podrás construir apps con node.js</p>
+          <div class="panel-group" id="accordion3">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion3" href="#jscollapseOne">
+                    Javascript
+                  </a>
+                </h4>
+              </div>
+            <div id="jscollapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                En construcción...
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion3" href="#js1scollapseOne">
+                  JQuery
+                </a>
+              </h4>
+            </div>
+            <div id="js1scollapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p class="leads">jQuery Basics covers why you'd want to use jQuery, what it is and how to include it in your projects. You'll build several projects over the course to give you the confidence to integrate jQuery in your own projects and add that level of flair and interactivity to any site you work on.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div class="col-sm-2">
+          <i class="icon-javascript hidden-xs" style="font-size:10em"></i>
+        </div>
+      </div>
+      
+    </div><!-- /container -->      
+
+
+<!--=============== FOOTER =========== -->
+
+       <div class="footer">
+          <div class="container">
+            <!--
+             <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
+           -->
+             <p class="pull-left"><a href="https://github.com/ivanhovic/Web-recursos-programadores"><i class="fa fa-github" style="font-size:2.5em"></i></a></p>
+             <p class="pull-left"><a href="https://twitter.com/ivanhovic"><i class="fa fa-twitter" style="font-size:2.5em"></i></a></p>
+             <p class="pull-right"><a href="#top">Arriba</a></p>
+             
+          </div>
+        </div>
+
+        <!-- ========= JAVASCRIPT =========== -->
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="css/dist/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

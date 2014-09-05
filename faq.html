@@ -5,19 +5,29 @@
     <title>Codéalo - Preguntas y respuestas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Preguntas y respuestas frecuentes referentes a Codéalo.es">
+
+    <!--FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <!-- STYLES COMPLETE -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="ss/bootstrap-theme.css" rel="stylesheet" media="screen"> 
+    <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen"> 
     <!-- CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
-    <!-- ICONOS -->
-    <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="font-mfizz-1.2/font-mfizz.css">
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44178839-2', 'codealo.es');
+  ga('send', 'pageview');
+
+</script>
 
   </head>
 
   <body>
-    <?php include_once("analyticstracking.php") ?>
 
 <!-- =============== NAVBAR ============ -->
 
@@ -75,9 +85,9 @@
                     </a>
                   </h4>
                 </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
+                <div id="collapseTwo" class="panel-collapse collapse in">
                   <div class="panel-body">
-                    <p>Durante mis estudios, me he topado con muchos tutoriales, la mayoría malos. Sin embargo, con otros aprendí y aprendo mucho. Después de un tiempo guardando todos esos enlaces para mí, decidí que lo mejor era compartirlo.</p>
+                    <p class="lead">Durante mis estudios, me he topado con muchos tutoriales, la mayoría malos. Sin embargo, con otros aprendí y aprendo mucho. Después de un tiempo guardando todos esos enlaces para mí, decidí que lo mejor era compartirlo.</p>
                   </div>
                 </div>
               </div>
@@ -90,9 +100,9 @@
                     </a>
                   </h4>
                 </div>
-                <div id="collapseThree" class="panel-collapse collapse">
+                <div id="collapseThree" class="panel-collapse collapse in">
                   <div class="panel-body">
-                    <p>El contenido se estructura de la siguiente forma para diferenciar el nivel:</p>
+                    <p class="lead">El contenido se estructura de la siguiente forma para diferenciar el nivel:</p>
                     <ul>
                       <li>Los tutoriales más básicos están en verde.</li>
                       <li>Los tutoriales avanzados en azul.</li>
@@ -110,9 +120,9 @@
                     </a>
                   </h4>
                 </div>
-                <div id="collapseFour" class="panel-collapse collapse">
+                <div id="collapseFour" class="panel-collapse collapse in">
                   <div class="panel-body">
-                    <p>La web es un sitio muy grande, y la mayoria del contenido está en inglés. Por supuesto, siempre que puedo, intento poner enlaces en castellano. Sin embargo, la programación requiere algunos conocimientos mínimos de inglés, ya que casi toda la documentación suele estar en el idioma de Shakespeare. Que eso no te detenga, no se necesita un diploma de Cambridge para entender lo que encontrarás en los tutoriales.</p>
+                    <p class="lead">La web es un sitio muy grande, y la mayoria del contenido está en inglés. Por supuesto, siempre que puedo, intento poner enlaces en castellano. Sin embargo, la programación requiere algunos conocimientos mínimos de inglés ya que casi toda la documentación suele estar en el idioma de Shakespeare. Que eso no te detenga, no se necesita un diploma de Cambridge para entender lo que encontrarás en los tutoriales.</p>
                   </div>
                 </div>
               </div>
@@ -125,27 +135,12 @@
                     </a>
                   </h4>
                 </div>
-                <div id="collapseFive" class="panel-collapse collapse">
+                <div id="collapseFive" class="panel-collapse collapse in">
                   <div class="panel-body">
-                    <p>Todo el código de la web esta subido a <a href="https://github.com/ivanhovic/Web-recursos-programadores">Github</a>. Estaré encantado de recibir ayuda, sugerencias, recomendaciones...etc</p>
+                    <p class="lead">Todo el código de la web esta subido a <a href="https://github.com/ivanhovic/Web-recursos-programadores">Github</a>. Estaré encantado de recibir ayuda, sugerencias, recomendaciones...etc</p>
                   </div>
                 </div>
               </div>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
 
             </div>
           </div>
@@ -156,17 +151,20 @@
 
         <div class="footer">
           <div class="container">
+            <!--
              <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
+           -->
+             <p class="pull-left"><a href="https://github.com/ivanhovic/Web-recursos-programadores"><i class="fa fa-github" style="font-size:2.5em"></i></a></p>
+             <p class="pull-left"><a href="https://twitter.com/ivanhovic"><i class="fa fa-twitter" style="font-size:2.5em"></i></a></p>
              <p class="pull-right"><a href="#top">Arriba</a></p>
+             
           </div>
         </div>
 
 
-      <!-- ================================================== -->
-      <!--  JavaScript al final para que la web cargue antes   -->
+        <!-- ========= JAVASCRIPT =========== -->
       <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
       <script src="css/dist/js/bootstrap.min.js"></script>
-      <script src="../../docs-assets/js/holder.js"></script>
 
 
   </body>

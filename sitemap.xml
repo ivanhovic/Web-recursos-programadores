@@ -4,7 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://www.codealo.es/</loc>
@@ -19,15 +18,15 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.codealo.es/lenguajes.html</loc>
+  <loc>http://www.codealo.es/desarrollowe.html</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.codealo.es/herramientas.html</loc>
+  <loc>http://www.codealo.es/front-end.html</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.codealo.es/moviles.html</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://www.codealo.es/contacto.html</loc>
+  <changefreq>monthly</changefreq>
 </url>
 </urlset>
