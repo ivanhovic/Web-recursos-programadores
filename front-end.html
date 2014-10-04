@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Codéalo | Front End</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Todo lo que siemrpe has deseado saber sobre el Front End. Desde HTML, CSS Y Javascript, hasta Bootstrap y JQuery">
+    <meta name="description" content="Todo lo que siempre has deseado saber sobre el Front End. Desde HTML, CSS Y Javascript, hasta Bootstrap y JQuery">
 
     <!-- ============ FONTS ============ -->
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -60,7 +60,7 @@
       </div>
     </div>
 
-    <!-- =============== CONTENIDO =================== -->
+<!-- =============== CONTENIDO =================== -->
 
     <div class="container">
 
@@ -72,8 +72,7 @@
           </div>
         </div>
 
-
-        <!-- =============== CONFIGURACIÓN =================== -->
+<!-- =============== CONFIGURACIÓN =================== -->
 
 
         <div class="row">
@@ -81,17 +80,18 @@
           <div class="col-sm-7 col-sm-offset-2">
           
             <h2 id="sublime" class="featurette-heading">0. <span class="text-muted">Configuración</span></h2>
-            <p class="lead">Antes de empezar, necesitaremos configurar nuestro entorno de trabajo. Esta primera parte no requiere mucho: un navegador web y un editor de texto. De hecho, seguramente ya tengamos ambas cosas instaladas. Sin embargo, recomendaremos un par de ellas para trabajar en las mejores condiciones:</p>
+            <p class="lead">Antes de empezar necesitaremos configurar nuestro entorno de trabajo. Para esta primera parte necesitaremos un editor de texto y un navegador web. El primero para <i>programar</i> y el segundo para ver los resultados.</p>
             <div class="panel-group" id="config">
+
               <div class="panel panel-success">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#config" href="#sublimecollapseOne">
+                    <a data-toggle="collapse" data-parent="#config" href="#editor">
                       Editor de texto: Sublime Text
                     </a>
                   </h4>
                 </div>
-                <div id="sublimecollapseOne" class="panel-collapse collapse">
+                <div id="editor" class="panel-collapse collapse">
                 <div class="panel-body">
                   <p class="lead">Haz diez cambios a la vez, no un cambio diez veces consecutivas. <a href="http://www.sublimetext.com/" target="_blank">Sublime</a> (así lo llamamos los amigos), se ha convertido en uno de los editores de texto más potentes y popularers entre los desarrolladores. Es sencillo, muy rápido, multiplataforma y soporta un montón de plugins. Ojo, no es gratis, pero existe una versión de prueba que dura eternamente.</p>
                   <ul>
@@ -102,16 +102,36 @@
                 </div>
               </div>
             </div>
+
             <div class="panel panel-success">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#config" href="#git1scollapseOne">
+                  <a data-toggle="collapse" data-parent="#config" href="#navegador">
                     Navegador: Chrome o Firefox
                   </a></h4>
               </div>
-              <div id="git1scollapseOne" class="panel-collapse collapse">
+              <div id="navegador" class="panel-collapse collapse">
                 <div class="panel-body">
                   <p class="lead">Para empezar nos valdría con cualquier navegador (Chrome, Firefox, Safari, Opera, Explorer), sin embargo <a href="http://www.google.com/intl/es_es/chrome/" target="_blank">Google</a> y <a href="https://www.mozilla.org/es-ES/firefox/new/" target="_blank">Firefox</a> son los que llevan la delantera en cuanto a adaptar los nuevos estándares de la web a sus navegadores. Por ello y por su buen rendimiento, nos decidimos por uno de los dos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#config" href="#ejercicio1">
+                    Ejercicio
+                  </a></h4>
+              </div>
+              <div id="ejercicio1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <ol>
+                    <li>Abre Sublime y escribe: <code>¡Mi primera Web!</code>.</li>
+                    <li>Guarda el archivo con este nombre: <code>index.html</code>.</li>
+                    <li>Abre <code>index.html</code> en tu navegador favorito.</li>
+                  </ol>
+                  <p>Si tu resultado es <a href="ejercicio1.html">este</a>, ¡estás preparado para el siguente nivel!</p>
                 </div>
               </div>
             </div>
@@ -124,11 +144,11 @@
             <i class="fa fa-gears hidden-xs" style="font-size:10em"></i>
           </div>
 
-         </div>
+        </div><!--/div row -->
 
-      <hr>
+        <hr>
 
-        <!-- =============== HTML Y CSS =================== -->
+<!-- =============== HTML Y CSS =================== -->
 
         <div class="row">
 
@@ -184,53 +204,55 @@
             <i class="fa fa-code hidden-xs" style="font-size:10em"></i>
           </div>
 
-      </div><!--/div roW -->
-      <hr>
+        </div><!--/div row -->
+      
+        <hr>
 
     
-    <!-- =============== JS =================== -->
+<!-- =============== JS =================== -->
 
         <div class="row">
 
-        <div class="col-sm-7 col-sm-offset-2">
-          <h2 id="git" class="featurette-heading">2. <span class="text-muted">Javascript</span></h2>
-          <p class="lead">JavaScript es el lenguaje de moda. Gracias a él, aprenderás a añadir elementos interactivos a tu web, e incluso podrás construir apps con node.js</p>
-          <div class="panel-group" id="accordion3">
-            <div class="panel panel-success">
+          <div class="col-sm-7 col-sm-offset-2">
+            <h2 id="git" class="featurette-heading">2. <span class="text-muted">Javascript</span></h2>
+            <p class="lead">JavaScript es el lenguaje de moda. Gracias a él, aprenderás a añadir elementos interactivos a tu web, e incluso podrás construir apps con node.js</p>
+            <div class="panel-group" id="accordion3">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion3" href="#jscollapseOne">
+                      Javascript
+                    </a>
+                  </h4>
+                </div>
+              <div id="jscollapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                  En construcción...
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-info">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion3" href="#jscollapseOne">
-                    Javascript
+                  <a data-toggle="collapse" data-parent="#accordion3" href="#js1scollapseOne">
+                    JQuery
                   </a>
                 </h4>
               </div>
-            <div id="jscollapseOne" class="panel-collapse collapse">
-              <div class="panel-body">
-                En construcción...
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion3" href="#js1scollapseOne">
-                  JQuery
-                </a>
-              </h4>
-            </div>
-            <div id="js1scollapseOne" class="panel-collapse collapse">
-              <div class="panel-body">
-                <p class="leads">jQuery Basics covers why you'd want to use jQuery, what it is and how to include it in your projects. You'll build several projects over the course to give you the confidence to integrate jQuery in your own projects and add that level of flair and interactivity to any site you work on.</p>
+              <div id="js1scollapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p class="leads">jQuery Basics covers why you'd want to use jQuery, what it is and how to include it in your projects. You'll build several projects over the course to give you the confidence to integrate jQuery in your own projects and add that level of flair and interactivity to any site you work on.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        </div>
-        <div class="col-sm-2">
-          <i class="icon-javascript hidden-xs" style="font-size:10em"></i>
-        </div>
-      </div>
+          <div class="col-sm-2">
+            <img src="imagenes/js1.png" alt="icono javascript" class="hidden-xs">
+          </div>
+
+        </div><!--div row-->
       
     </div><!-- /container -->      
 
@@ -239,17 +261,13 @@
 
        <div class="footer">
           <div class="container">
-            <!--
-             <p class="pull-left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
-           -->
              <p class="pull-left"><a href="https://github.com/ivanhovic/Web-recursos-programadores"><i class="fa fa-github" style="font-size:2.5em"></i></a></p>
              <p class="pull-left"><a href="https://twitter.com/ivanhovic"><i class="fa fa-twitter" style="font-size:2.5em"></i></a></p>
-             <p class="pull-right"><a href="#top">Arriba</a></p>
-             
+             <p class="pull-right"><a href="#top">Arriba</a></p>      
           </div>
         </div>
 
-        <!-- ========= JAVASCRIPT =========== -->
+<!-- ========= JAVASCRIPT =========== -->
       <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
       <script src="css/dist/js/bootstrap.min.js"></script>
 
