@@ -162,3 +162,9 @@ ul.nav.nav-pills.nav-stacked{
 mark{
   background: #FFC227;
 }
+
+.azul{
+  background-color: #1b80b9;
+  padding: 15px;
+  border-radius: 5px;
+}
