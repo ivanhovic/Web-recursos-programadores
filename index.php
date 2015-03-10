@@ -105,7 +105,7 @@
         </div>
 
         <div class="row">
-          <div class="col-md-4 text-center">
+          <div class="col-md-12 text-center">
             <!-- Begin MailChimp Signup Form -->
               
               <div id="mc_embed_signup">
