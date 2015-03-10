@@ -17,12 +17,6 @@
 
     <!-- ============ CUSTOM CSS ============= -->
     <link href="css/custom.css" rel="stylesheet">
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-              <style type="text/css">
-              #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-              /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-              </style>
     
     <!-- ============== ICONOS ========== -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -105,7 +99,7 @@
         </div>
 
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-4 col-md-offset-4 text-center">
             <!-- Begin MailChimp Signup Form -->
               
               <div id="mc_embed_signup">
