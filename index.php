@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -6,20 +5,12 @@
     <title>Codéalo | Crea una aplicación web desde cero</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Desarrolla una aplicación web desde cero, todo gracias a una selección de los mejores cursos online o moocs.">
-
-    <!-- ============ FONTS ============ -->
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-
-    <!-- =========ESTiLOS =============== -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <!-- ============ CUSTOM CSS ============= -->
-    <link href="css/custom.css" rel="stylesheet">
     
-    <!-- ============== ICONOS ========== -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -51,7 +42,6 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Inicio</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="contacto.html">Contacto</a></li>
           </ul>
@@ -67,7 +57,7 @@
           <div class="row">
             <div class="col-md-4">
               <h1>Crea una aplicación web desde cero</h1>
-              <p><a class="btn btn-lg btn-primary" href="desarrolloweb.html" role="button">¡Vamos a ello!</a></p>
+              <p><a class="btn btn-lg btn-primary" href="desarrolloweb.html" role="button">¡Empezemos!</a></p>
             </div>
           </div>
         </div>
@@ -92,7 +82,7 @@
           <div class="col-md-4 text-center">
             <i class="fa fa-keyboard-o" style="font-size:10em"></i>
             <h2>Lenguajes</h2>
-            <p>¿Qué debo aprender?, ¿HTML, PHP, Ruby, Python?, ¿en qué se diferencian?, ¿Qué elijo yo?.</p>
+            <p>¿Qué debo aprender?, ¿HTML, PHP, Ruby, Python? y, ¿en qué orden?.</p>
           </div> 
 
         </div><!-- /.row -->
@@ -105,9 +95,9 @@
             <!-- Begin MailChimp Signup Form -->  
 
                 <form action="//codealo.us10.list-manage.com/subscribe/post?u=bcbe5d1ddcf0a8857f87b302e&amp;id=00aa27e232" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate azul form-inline" target="_blank" novalidate>
-                  <p>Recibe las novedades</p>
+                  <p>Recibe las actualizaciones en tu email</p>
                   <div class="form-group">
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
                   </div>
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   
