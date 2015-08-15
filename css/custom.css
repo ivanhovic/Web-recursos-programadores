@@ -46,8 +46,8 @@ margin-bottom: 0px;
 .footer {
   border-top: 1px solid #eee;
   margin-top: 40px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #eee;
 }
 
@@ -133,11 +133,6 @@ ul.nav.nav-pills.nav-stacked{
 /* PANEL HEADING AHORA se puede pinchar todo el botón, antes solo las letras */
 .panel-heading a{
   display: block;
-}
-
-.contenido_estatico{
-  font-size: 1.25em;
-  text-align: center;
 }
 
 .pull-left{
