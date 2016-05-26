@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Todo lo que siempre has deseado saber sobre el Front End. Desde HTML, CSS hasta Javascript y JQuery">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -58,8 +58,8 @@
         <div class="row">
           <div class="col-sm-7 col-sm-offset-2">
             <h1 class="text-center">El Front-End</h1>
-            <p class="lead">Ahora que ya sabes qué hacen los desarrolladores web, es el momento de ensuciarse las manos y hacer lo que hacen ellos. En esta primera parte aprenderás los fundamentos de la programación web. Aprenderás a construir una web sencilla con HTML, darle estilo con CSS y añadir algunos elementos interactivos con JavaScript. Puede que aún no entiendas nada, pero no te preocupes, irás comprendiéndolo poco a poco.</p> 
-            <p class="lead">Básicamente esto es el llamado Front-End. Haciendo una analogía, si una web fuera un coche, el Front-End se encargaría de poner el color, los asientos, los botones que controlan la radio... Para hacer el motor, necesitaríamos el Back-End.</p>
+            <p>Ahora que ya sabes qué hacen los desarrolladores web, es el momento de ensuciarse las manos y hacer lo que hacen ellos. En esta primera parte aprenderás los fundamentos de la programación web. Aprenderás a construir una web sencilla con HTML, darle estilo con CSS y añadir algunos elementos interactivos con JavaScript. Puede que aún no entiendas nada, pero no te preocupes, irás comprendiéndolo poco a poco.</p> 
+            <p>Básicamente esto es el llamado Front-End. Haciendo una analogía, si una web fuera un coche, el Front-End se encargaría de poner el color, los asientos, los botones que controlan la radio... Para hacer el motor, necesitaríamos el Back-End.</p>
           </div>
         </div>
 
@@ -71,7 +71,7 @@
           <div class="col-sm-7 col-sm-offset-2">
           
             <h2 id="sublime" class="featurette-heading">0. <span class="text-muted">Configuración</span></h2>
-            <p class="lead">Antes de empezar necesitaremos configurar nuestro entorno de trabajo. Para esta primera parte necesitaremos un editor de texto y un navegador web. El primero para <i>programar</i> y el segundo para ver los resultados.</p>
+            <p>Antes de empezar necesitaremos configurar nuestro entorno de trabajo. Para esta primera parte necesitaremos un <b>editor de texto</b> especial y un <b>navegador web</b>. El primero para <i>programar</i> y el segundo para ver nuestros resultados.</p>
             <div class="panel-group" id="config">
 
               <div class="panel panel-success">
@@ -84,12 +84,13 @@
                 </div>
                 <div id="editor" class="panel-collapse collapse">
                 <div class="panel-body">
+                  <p>Vale, ¿y para que necesito un editor de texto?, ¿no me vale con el Word? No, a partir de ahora escribirás código, no texto. Word está preparado para texto y Sublime está preparado para programar. Si no te gusta Sublime, o simplemente prefieres otro editor (<a href="https://atom.io/">Atom</a>), al menos comprueba que tenga la capacidad de colorear el código.</p>
                   <p>Haz diez cambios a la vez, no un cambio diez veces consecutivas. <a href="http://www.sublimetext.com/" target="_blank">Sublime</a> (así lo llamamos los amigos), se ha convertido en uno de los editores de texto más potentes y popularers entre los desarrolladores. Es sencillo, muy rápido, multiplataforma y soporta un montón de plugins. Ojo, no es gratis, pero existe una versión de prueba que dura eternamente.</p>
                   <ul>
                     <li><a href="http://www.sublimetext.com/" target="_blank">Descarga</a></li>
                     <li>¿Por qué es mejor Sublime?¿Qué ofrece? Este videotutorial completamente gratuito recorre las ventajas, así como el funcionamiento básico de Sublime, la instalación, atajos de teclado, instalación de pluggins...etc: <a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/" target="_blank">Perfect Workflow in Sublime Text 2 </a><span class="label label-default">Inglés</span> <span class="label label-default">Gratis</span></li>
                   </ul>
-                  <p>Vale, ¿y para que necesito un editor de texto?, ¿no me vale con el Word? No, a partir de ahora escribirás código, no texto. Word está preparado para texto y Sublime está preparado para programar. Si no te gusta Sublime, o simplemente prefieres otro editor, al menos comprueba que tenga la capacidad de colorear el código.</p>
+                  
                 </div>
               </div>
             </div>
@@ -127,6 +128,25 @@
               </div>
             </div>
 
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#config" href="#ejerciciocodepen">
+                    Ejercicio II
+                  </a></h4>
+              </div>
+              <div id="ejerciciocodepen" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Ahora vamos a probar a hacer el ejercicio en un editor online</p>
+                  <ol>
+                    <li>Ve a <a href="http://codepen.com">Codepen</a> y registrate.</li>
+                    <li>Prueba a crear la misma web que antes.</li>
+                    <li>Comprueba al momento que los resultados son los esperados.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
 
             </div>
           </div>
@@ -146,13 +166,13 @@
           <div class="col-sm-7 col-sm-offset-2">
             <h2 id="terminal" class="featurette-heading">1. <span class="text-muted">HTML y CSS</span></h2>
 
-            <p class="lead">El HTML es el primero de los tres lenguajes que deberás aprender para crear webs. Con él se <i>definen</i> todos los elementos que ves: el texto, las fotos, los videos, o las listas. También proveen a los navegadores con otros archivos como el CSS y el JavaScript.
+            <p>El <b>HTML</b> es el primero de los tres lenguajes que deberás aprender para crear webs. Con él se <i>definen</i> todos los elementos que ves: el texto, las fotos, los videos, o las listas. También proveen a los navegadores con otros archivos como el CSS y el JavaScript.
 
-            <p class="lead">El segundo de los lenguajes es el CSS (Cascade style sheets), que define el estilo de una web: colores, tipografia, tamaños, espacios e incluso algunas animaciones.</p>
+            <p>El segundo de los lenguajes es el <b>CSS</b> (Cascade style sheets), que define el estilo de una web: colores, tipografia, tamaños, espacios e incluso algunas animaciones.</p>
 
-            <p class="lead">Haciendo una analogía, un arquitecto haría los planos de una casa y la construiría con el HTML, más tarde, un decorador la haría más bonita con el CSS.</p>
+            <p>Haciendo una analogía, un arquitecto haría los planos de una casa y la construiría con el HTML, más tarde, un decorador la diseñaría con el CSS.</p>
 
-            <p class="lead">Un ejemplo de una web <a href="ejemplosolohtml.html">sólo con HTML</a>  y otra <a href="ejemplohtmlcss.html">con HTML y CSS</a>. Se nota la diferencia, ¿verdad?</p>
+            <p>Un ejemplo de una web <a href="ejemplosolohtml.html">sólo con HTML</a>  y otra <a href="ejemplohtmlcss.html">con HTML y CSS</a>. Mejor, ¿verdad?</p>
             <div class="panel-group" id="accordion">
               <div class="panel panel-success">
                 <div class="panel-heading">
@@ -190,7 +210,7 @@
               <div class="panel panel-warning">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#config" href="#ejercicio2">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#ejercicio2">
                     Ejercicio
                   </a></h4>
               </div>
@@ -239,7 +259,7 @@
 
           <div class="col-sm-7 col-sm-offset-2">
             <h2 id="git" class="featurette-heading">2. <span class="text-muted">Javascript</span></h2>
-            <p class="lead">JavaScript es el lenguaje de moda. Gracias a él, aprenderás a añadir elementos interactivos a tu web. ¿Un ejemplo?, ¿ves el botón de abajo donde pone Javascript? Cada vez que lo pulsas se abre y se cierra la ventana. Eso es Javascript.</p>
+            <p><b>JavaScript</b> es el lenguaje de moda. Gracias a él, aprenderás a añadir elementos interactivos a tu web. ¿Un ejemplo?, ¿ves el botón de abajo donde pone Javascript? Cada vez que lo pulsas se abre y se cierra la ventana. Eso es Javascript.</p>
             <div class="panel-group" id="accordion3">
               <div class="panel panel-success">
                 <div class="panel-heading">
@@ -251,7 +271,7 @@
                 </div>
               <div id="js" class="panel-collapse collapse">
                 <div class="panel-body">
-                  Antes de empezar, deberás aprender unos conceptos básicos de programación, y qué mejor que hacerlo aprendiendo Javascript. Estas cuatro recomendaciones serán suficientes para iniciarse, todas son igual de buenas. Tomátelo con paciencia, al principio resultará algo confuso, pero poco a poco y con algo de práctica verás que no es tan difícil.
+                  Antes de empezar, deberás aprender unos conceptos básicos de programación, y qué mejor forma de empezar que aprendiendo Javascript. Estas cuatro recomendaciones serán suficientes para iniciarse, todas son igual de buenas. Tomátelo con paciencia, programar no es fácil, auque tampoco dificil. Al principio resultará algo confuso, pero poco a poco y con algo de práctica verás que no es tan difícil.
                   <ul>
                     <li><p><a href="https://www.codecademy.com/en/tracks/javascript">JavaScript</a> <span class="label label-default">Inglés</span></p></li>
                     <li><p><a href="https://www.youtube.com/playlist?list=PLoYCgNOIyGACTDHuZtn0qoBdpzV9c327V">Javascript Fundamentals</a> <span class="label label-default">Inglés</span></p></li>
@@ -264,7 +284,7 @@
             <div class="panel panel-warning">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#config" href="#ejerciciojs">
+                  <a data-toggle="collapse" data-parent="#accordion3" href="#ejerciciojs">
                     Ejercicio
                   </a></h4>
               </div>
